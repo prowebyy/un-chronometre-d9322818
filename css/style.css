@@ -1,0 +1,13 @@
+/* Styles personnalisés pour le chronomètre */
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+#display {
+    transition: color 0.3s ease;
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
